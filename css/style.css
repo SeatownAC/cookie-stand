@@ -1,0 +1,54 @@
+*{
+    background-color: bisque;
+}
+h1 {
+    color: brown;
+    font-style: italic;
+    text-align:center;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+h2 {
+    color: orange;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h3 { font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    color: brown;
+
+}
+
+.salmon-pic {
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    }
+
+.salmonmug {
+    
+    float: right;
+
+}
+
+#nav {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+
+    
+    
+
+}
+
+#content {
+    align-content: right;
+}
+
+
