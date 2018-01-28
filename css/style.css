@@ -1,54 +1,26 @@
-*{
-    background-color: bisque;
-}
-h1 {
-    color: brown;
-    font-style: italic;
-    text-align:center;
-    font-size: 48px;
-    font-family: 'Fira Sans', sans-serif;
-
+* {
+    font-family: Helvetica;
+    font-size: 12px;
 }
 
-h2 {
-    color: orange;
-    font-size: 24px;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-h3 { font-family: 'Crimson Text', serif;
-    font-size: 24px;
-    color: brown;
-
-}
-
-.salmon-pic {
-    height: 200px;
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    }
-
-.salmonmug {
-    
-    float: right;
-
-}
-
-#nav {
-    color: black;
+h3 {
+    font-size: 22px;
     text-align: center;
-    font-size: 24px;
-    font-family: 'Crimson Text', serif;
-
-    
-    
-
+    width: 1000px;
+    color: #42c583;
 }
 
-#content {
-    align-content: right;
+table {
+    border: solid black 1px;
 }
 
+th {
+    width: 60px;
+    border: solid black 1px;
+}
 
+td {
+    text-align: center;
+    height: 30px;
+    border: solid black 1px;
+}
