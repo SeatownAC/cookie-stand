@@ -20,6 +20,7 @@ h2 {
 h3 { font-family: 'Crimson Text', serif;
     font-size: 24px;
     color: brown;
+    max-width: 50%;
 
 }
 
@@ -30,11 +31,7 @@ h3 { font-family: 'Crimson Text', serif;
     margin: 0 auto;
     }
 
-.salmonmug {
-    
-    float: right;
 
-}
 
 #nav {
     color: black;
@@ -49,6 +46,39 @@ h3 { font-family: 'Crimson Text', serif;
 
 #content {
     align-content: right;
+    margin: 1%;
+    border-color: red;
+    border: 10px;
+    width: 30%;
+    float: right;
+}
+
+#locations {
+    margin: 1%;
+    margin-right: 15%;
+
+}
+
+.textandimage img {
+    width:10%;
+    height:10%;
+   
+    
+
+}
+
+.salmon-mug {
+   
+    margin: 1%;
+    border: 1px;
+    display: right;
+     
+}
+
+.salmon-hat {
+    margin: 1%;
+    border: 1px;
+   
 }
 
 
