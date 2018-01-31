@@ -1,18 +1,15 @@
 'use strict';
 
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', 
-'5pm', '6pm', '7pm'];
-
+'5pm', '6pm', '7pm']
+;
 var allLocations = [];
 
 var totalCookiesPerHour =0;
 
 var finalTotal = 0;
 
-
-
-
-function MakeLocation(name, minCustHour, maxCustHour,avgCookiesPerHour ){
+function Location(name, minCustHour, maxCustHour,avgCookiesPerHour ){
     this.name = name;
     this.minCustHour = minCustHour;
     this.maxCustHour = maxCustHour;
@@ -47,7 +44,6 @@ function makeStands() {
     new Location('Capitol Hill', 20, 38, 2.3);
     new Location('Alki', 2, 16, 4.6);
 };
-
 makeStands();
 
 function makeHeaderRow() {
@@ -118,4 +114,3 @@ function makeTotalRow() {
 
 };
 makeTotalRow();
-
