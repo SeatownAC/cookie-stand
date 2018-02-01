@@ -20,21 +20,22 @@ function Location(name, minCustHour, maxCustHour,avgCookiesPerHour ){
     allLocations.push(this);
     this.calcRandCustPerHour = function() {
         for (var i =0; i < hours.length; i++) {
-            this.randCustHour.push(Math.floor(Math.random()) * (this.maxCustHour - this.minCustHour))
+            this.randCustHour.push(Math.floor(Math.random() * (this.maxCustHour - this.minCustHour +1)) + this.minCustHour);
             console.log(this.randCustHour[i]);
 
         }
     };
     this.calcCookiesPerHour = function() {
-        for (var i = 0; i < hours.length; i++) {
-            this.cookiesPerHour.push(Math.round(this.avgCookiesPerHour * this.randCustHour[i]))
-            console.log(this.cookiesPerHour[i]);
-            this.totalCookies += this.cookiesPerHour [i];
+        for (var j = 0; j < hours.length; j++) {
+            this.cookiesPerHour.push(Math.round(this.avgCookiesPerHour * this.randCustHour[j]));
+            console.log(this.cookiesPerHour[j]);
+            this.totalCookies += this.cookiesPerHour[j];
         }
 
     };
-    this.calcCookiesPerHour();
     this.calcRandCustPerHour();
+    this.calcCookiesPerHour();
+    
 }
 
 function makeStands() {
@@ -118,5 +119,6 @@ function makeTotalRow() {
     cookieshops.appendChild(trEl);
 
 };
-}
+    }
 makeTotalRow();
+
