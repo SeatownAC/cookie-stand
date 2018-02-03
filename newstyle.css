@@ -9,23 +9,29 @@
 }
 
 h1 {
-    font-size: 28px;
-    text-align: left;
-    width: 1000px;
-    color: black;
+    font-size: 36px;
+    
+    width: 657px;
+    color: brown;
+    background-color: grey;
 }
 
 table {
-    border: solid black bold 1px;
+    border: solid blue bold 1px;
+    width: 300px;
+    
 }
 
 th {
     width: 60px;
-    border: solid black 1px;
+    border: solid maroon 1px;
 }
 
 td {
     text-align: center;
     height: 30px;
     border: solid black 1px;
+}
+body { color: black;
+
 }
