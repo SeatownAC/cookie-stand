@@ -4,18 +4,42 @@
 <head>
     <meta charset="utf-8" />
     <title>Salmon Cookie Sales</title>
-    <link href="newstyle.css" rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Crimson+Text|Fira+Sans|Quicksand" rel="stylesheet">
+    <link href="newstyle.css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text|Fira+Sans|Quicksand"
+        rel="stylesheet">
 </head>
 
 <body>
     <br>
     <h1>Salmon Cookie Sales</h1>
     <table id="cookieshops"></table>
+
     
+    <form id="store-form">
+        <fieldset>
+            <label for="name">Name of Location: </label>
+            <input name="name" type="text" placeholder="what is your name?">
+        </fieldset>
+
+        <fieldset>
+            <label for="mincusthour">Minimum Customers per Hour: </label>
+            <input name="mincusthour" type="text">
+        </fieldset>
+
+        <fieldset>
+            <label for="maxcusthour">Maximum Customers per Hour: </label>
+            <input name="maxcusthour" type="text">
+        </fieldset>
+        
+        <fieldset>
+            <label for="avgcookiesperhour">Average Cookies per Sale: </label>
+            <input name="avgcookiesperhour" type="text">
+        </fieldset>
+
+
+        <button type="submit">Create a New Store</button>
+        </fieldset>
+    </form>
     <script src="newapp.js"></script>
 </body>
 
 </html>
-
-
