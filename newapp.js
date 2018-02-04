@@ -138,7 +138,6 @@ function handleSubmitForm(event) {
     // var trEl = document.createElement('tr');
     // var tdEl = document.createElement('td');
     // tdEl.textContent= allLocations[j].name;
-    // trEl.appendChild(tdEl);
     var cookieshops = document.getElementById('cookieshops');
 
     if(!event.target.name.value || !event.target.mincusthour.value || !event.target.maxcusthour.value || !event.target.avgcookiesperhour.value) {
@@ -148,7 +147,7 @@ function handleSubmitForm(event) {
     var name = event.target.name.value;
     var minCustHour = parseInt(event.target.mincusthour.value);
     var maxCustHour = parseInt(event.target.maxcusthour.value);
-    var avgCookiesPerHour = parseInt(event.target.avgcookiesperhour.value);
+    var avgCookiesPerHour = parseFloat(event.target.avgcookiesperhour.value);
 
   
 new Location(name, minCustHour, maxCustHour, avgCookiesPerHour); 
