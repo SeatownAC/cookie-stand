@@ -1,26 +1,72 @@
-* {
-    font-family: Helvetica;
-    font-size: 12px;
+*{
+    background-color: bisque;
+}
+h1 {
+    color: brown;
+    font-style: italic;
+    text-align:center;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+
 }
 
-h3 {
-    font-size: 22px;
+h2 {
+    color: orange;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h3 { font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    color: brown;
+    max-width: 50%;
+
+}
+
+.salmon-pic {
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    }
+
+
+
+#nav {
+    color: black;
     text-align: center;
-    width: 1000px;
-    color: #42c583;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+
+    
+    
+
 }
 
-table {
-    border: solid black 1px;
+#content {
+    align-content: right;
+    margin: 1%;
+    border-color: red;
+    border: 10px;
+    width: 30%;
+    float: right;
 }
 
-th {
-    width: 60px;
-    border: solid black 1px;
+#locations {
+    margin: 1%;
+    margin-right: 15%;
+
 }
 
-td {
-    text-align: center;
-    height: 30px;
-    border: solid black 1px;
-}
+
+
+
+
+
+.family-pic {
+    height: 150px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    }
