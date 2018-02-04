@@ -1,0 +1,31 @@
+
+* {background-color: salmon;
+}
+
+
+{
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: left;
+    width: 1000px;
+    color: black;
+}
+
+table {
+    border: solid black bold 1px;
+}
+
+th {
+    width: 60px;
+    border: solid black 1px;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    border: solid black 1px;
+}
