@@ -6,6 +6,7 @@ var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '
 var allLocations = [];
 
 function Location(name, minCustHour, maxCustHour,avgCookiesPerHour ){
+
    this.name = name;
    this.minCustHour = minCustHour;
    this.maxCustHour = maxCustHour;
@@ -31,7 +32,7 @@ function Location(name, minCustHour, maxCustHour,avgCookiesPerHour ){
    };
    this.calcRandCustPerHour();
    this.calcCookiesPerHour();
-   
+
 }
 
 function makeStands() {
@@ -122,6 +123,7 @@ function makeTotalRow() {
     tdEl.textContent = finalTotal;
     trEl.appendChild(tdEl);
     cookieshops.appendChild(trEl);
+
 
 
 }
